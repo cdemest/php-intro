@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP Intro</title>
+    <title>PHP Intro - <?php echo $title; ?></title>
 </head>
 
 <body>
@@ -37,7 +37,3 @@ echo "<h3>Salary is: $salary $.</h3>";
         <li><a href="switchstatement.php">Switch</a></li>
         <li><a href="stringwork.php">Working with Strings</a></li>
     </ul>
-
-</body>
-
-</html>
